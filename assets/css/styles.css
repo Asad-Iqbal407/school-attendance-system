@@ -1,0 +1,185 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    flex: 1;
+}
+
+header {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header .logo {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    height: 60px;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 1.5em;
+    font-size: 2em;
+}
+
+form {
+    background: #fff;
+    padding: 2em;
+    margin: 2em 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 1em;
+}
+
+form label {
+    display: block;
+    margin-bottom: .5em;
+    color: #333;
+    font-weight: bold;
+}
+
+form input, form select {
+    width: 100%;
+    padding: .5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: .5em 2em;
+    background: #2575fc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #6a11cb;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+}
+
+table th, table td {
+    padding: 1em;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+table th {
+    background: #f4f4f4;
+}
+
+.dashboard-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.dashboard-section {
+    background: #fff;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 48%;
+}
+
+.dashboard-section h2 {
+    margin-top: 0;
+}
+
+.dashboard-section p {
+    margin: 1em 0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background: #2575fc;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #6a11cb;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 2em;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%;
+}
+
+.slides img {
+    width: 33.3333%;
+    flex-shrink: 0;
+    max-height: 400px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
